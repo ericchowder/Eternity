@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Puzzle
+  - Puzzle Piece
+  - Key
+  - Tank
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1033942233
+    locked: 0
+  - name: Background objects
+    uniqueID: 3972639057
+    locked: 0
+  - name: Buttons
+    uniqueID: 866354191
+    locked: 0
+  - name: other
+    uniqueID: 4258330957
+    locked: 0
+  - name: UI stuff
+    uniqueID: 2259087437
+    locked: 0
+  - name: DialogueManager
+    uniqueID: 1910487323
+    locked: 0
