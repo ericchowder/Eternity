@@ -49,10 +49,7 @@ public class UpdateMemoryLense : MonoBehaviour {
 			StartCoroutine(ShowAndHide(textObj, textbox));
 			MemoryLense.lense.totalUnlocked = 1;
 			lense.SetActive(true);
-
-			
-
-			//open minigame
+			SceneManager.LoadScene ("minigame");
 		}
 	}
 	IEnumerator ShowAndHide(GameObject text, GameObject textbox)
@@ -85,10 +82,5 @@ public class UpdateMemoryLense : MonoBehaviour {
 	{
 	
 		MemoryLense.lense.unlockedStatus1 = 1;
-	}
-
-	public void loadMinigame()
-	{
-		SceneManager.LoadScene ("minigame");
 	}
 }
