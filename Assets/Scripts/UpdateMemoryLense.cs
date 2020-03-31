@@ -86,4 +86,9 @@ public class UpdateMemoryLense : MonoBehaviour {
 	
 		MemoryLense.lense.unlockedStatus1 = 1;
 	}
+
+	public void loadMinigame()
+	{
+		SceneManager.LoadScene ("minigame");
+	}
 }
