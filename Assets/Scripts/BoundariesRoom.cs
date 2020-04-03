@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Boundaries : MonoBehaviour {
+public class BoundariesRoom : MonoBehaviour {
 	private Vector2 screenBoundaries;
 	private float objectW;
 	private float objectH;

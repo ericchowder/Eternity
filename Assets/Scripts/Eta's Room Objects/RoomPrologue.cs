@@ -2,24 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.EventSystems;
 
-public class DialogueManager : MonoBehaviour
-{
+public class RoomPrologue : MonoBehaviour {
+
 	public Text nameText;
 	public Text dialogueText;
 
 	public GameObject textboxObject;
 	public GameObject dialogueObject;
 	public GameObject nameObject;
-	public GameObject continueButton;
+
 	public GameObject headshot;
 
-	public GameObject exitButton;
+	public GameObject continueBtn;
 
 	private Queue<string> sentences;
 
-	private GameObject clickedObj;
+	public Dialogue dialogue;
+
+	public GameObject objective;
 
 	// Use this for initialization
 	void Start()
@@ -28,18 +29,16 @@ public class DialogueManager : MonoBehaviour
 
 	}
 
-	public void StartDialogue(Dialogue dialogue)
+	public void StartDialogue()
 	{
 		//make textbox and dialogue appear onto screen
-		continueButton.SetActive(true);
+		continueBtn.SetActive(true);
 		nameObject.SetActive(true);
 		dialogueObject.SetActive(true);
 		textboxObject.SetActive(true);
 		headshot.SetActive(true);
-		
+
 		nameText.text = dialogue.name;
-		
-		clickedObj = EventSystem.current.currentSelectedGameObject;
 
 		sentences.Clear();
 
@@ -81,32 +80,19 @@ public class DialogueManager : MonoBehaviour
 
 	void EndDialogue()
 	{
-
-
-		if (clickedObj.tag == "Puzzle")
 		{
 			//make textbox and dialogue disappear when finished
-			continueButton.SetActive(false);
+			continueBtn.SetActive(false);
 			textboxObject.SetActive(false);
 			nameObject.SetActive(false);
 			dialogueObject.SetActive(false);
 			headshot.SetActive(false);
 
-			exitButton.SetActive(true);
-		}
+			objective.GetComponent<PrologueObjective>().ShowObjective();
 
-		else
-		{
-			//make textbox and dialogue disappear when finished
-			continueButton.SetActive(false);
-			textboxObject.SetActive(false);
-			nameObject.SetActive(false);
-			dialogueObject.SetActive(false);
-			headshot.SetActive(false);
+			gameObject.GetComponent<ShowTrigger>().ShowObjs();
 
-			clickedObj.GetComponent<ShowTrigger>().ShowObjs();
 		}
 
 	}
-
 }

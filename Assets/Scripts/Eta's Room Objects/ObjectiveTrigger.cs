@@ -14,9 +14,11 @@ public class ObjectiveTrigger : MonoBehaviour
 
     //assets for hints that players can use
     public Text hintText;
+	public Text nameText;
 
     public GameObject hintTextObj;
     public GameObject hintTextbox;
+	public GameObject nameObj;
 
     public GameObject headshot;
 
@@ -48,8 +50,11 @@ public class ObjectiveTrigger : MonoBehaviour
 
 		hintTextObj.SetActive(true);
 		hintTextbox.SetActive(true);
+		nameObj.SetActive(true);
 
 		headshot.SetActive(true);
+
+		nameText.text = dialogue.name;
 
 		sentences.Clear();
 

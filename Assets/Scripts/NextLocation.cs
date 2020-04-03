@@ -26,12 +26,13 @@ public class NextLocation : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKey(KeyCode.UpArrow) == true && exit.activeSelf == true)
+		if ((Input.GetKey(KeyCode.W) == true || Input.GetKey(KeyCode.UpArrow) == true)
+			&& exit.activeSelf == true)
 			{
 				new WaitForEndOfFrame();
-
-				changeScene();
 				Destroy(GameObject.Find("Eta"));
+				changeScene();
+				
 			}
 	}
 
