@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class pauseMenu : MonoBehaviour {
+public class pauseMenuu : MonoBehaviour {
 
 	public static bool gameIsPaused = false;
 	public GameObject pauseMenuUI;
-	
+
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.Escape)) {/*
