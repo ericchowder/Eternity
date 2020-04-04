@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NextLocation : MonoBehaviour {
+public class NextLocationElevator : MonoBehaviour {
+
 	//button to appear to go to the next location
 	public GameObject exit;
 	public GameObject pressUp;
@@ -13,26 +14,34 @@ public class NextLocation : MonoBehaviour {
 
 	private Scene current;
 
+	private GameObject eta;
+
 	void Awake()
 	{
-		
+
 		current = SceneManager.GetActiveScene();
 	}
 
 	// Use this for initialization
-	void Start () {
+	void Start()
+	{
 		Time.timeScale = 1;
+		eta = GameObject.Find("Eta");
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		if (Input.GetKey(KeyCode.UpArrow) == true && exit.activeSelf == true)
-			{
-				new WaitForEndOfFrame();
 
-				changeScene();
-				Destroy(GameObject.Find("Eta"));
-			}
+	// Update is called once per frame
+	void Update()
+	{
+		if ((Input.GetKey(KeyCode.W) == true || Input.GetKey(KeyCode.UpArrow) == true)
+			&& exit.activeSelf == true)
+		{
+			new WaitForEndOfFrame();
+			changeScene();
+			eta.AddComponent<BoundariesRoom>();
+			eta.GetComponent<BoundariesElevator>().enabled = false;
+
+
+		}
 	}
 
 	//when player comes within the range of the
@@ -41,7 +50,7 @@ public class NextLocation : MonoBehaviour {
 	{
 		exit.SetActive(true);
 		pressUp.SetActive(true);
-		
+
 	}
 
 	public void changeScene()

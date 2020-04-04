@@ -38,3 +38,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ElevatorPast.unity
     guid: 2a1b1b9574df5c145ae022c91e03ef5e
+  - enabled: 1
+    path: Assets/Scenes/minigame.unity
+    guid: d1f88ef5e2d95e141bbd9ba9062d99ee

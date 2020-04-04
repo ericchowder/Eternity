@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 
 public class DialogueManager : MonoBehaviour
 {
-
+	public Text nameText;
 	public Text dialogueText;
 
 	public GameObject textboxObject;
@@ -36,7 +36,9 @@ public class DialogueManager : MonoBehaviour
 		dialogueObject.SetActive(true);
 		textboxObject.SetActive(true);
 		headshot.SetActive(true);
-
+		
+		nameText.text = dialogue.name;
+		
 		clickedObj = EventSystem.current.currentSelectedGameObject;
 
 		sentences.Clear();

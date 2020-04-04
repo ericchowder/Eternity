@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class UpdateMemoryLense : MonoBehaviour {
+//for checking if players have a memory lense or not
+public class CheckMemLense3 : MonoBehaviour
+{
 
 	public Text notifText;
 
@@ -31,7 +33,7 @@ public class UpdateMemoryLense : MonoBehaviour {
 	//check if players have a lense to unlock
 	public void CheckLense()
 	{
-		if (MemoryLense.lense.obtainedStatus1 == 0)
+		if (MemoryLense.lense.obtainedStatus3 == 0)
 		{
 			notifText.text = text1;
 
@@ -39,17 +41,20 @@ public class UpdateMemoryLense : MonoBehaviour {
 			textbox.SetActive(true);
 
 			closeNotifBtn.SetActive(true);
-			
+
 		}
 
 		else
 		{
 			notifText.text = text2;
-			MemoryLense.lense.unlockedStatus1 = 1;
+		
 			StartCoroutine(ShowAndHide(textObj, textbox));
-			MemoryLense.lense.totalUnlocked = 1;
+		
 			lense.SetActive(true);
-			SceneManager.LoadScene ("minigame");
+
+
+
+			//open minigame
 		}
 	}
 	IEnumerator ShowAndHide(GameObject text, GameObject textbox)
@@ -59,28 +64,20 @@ public class UpdateMemoryLense : MonoBehaviour {
 		yield return new WaitForSeconds(0.5f);
 		text.SetActive(false);
 		textbox.SetActive(false);
-	
-		
+
+
 		//SceneManager.LoadScene(level);
 		//SceneManager.UnloadSceneAsync(current);
-		
+
 
 	}
 
-	//when players have obtained a mem. lense
-	public void updateOStatus()
+	public void DisplayLense()
 	{
-		if (PuzzlePiece.puzzlePieces.key == 1)
+		if (MemoryLense.lense.unlockedStatus3 == 1)
 		{
-			MemoryLense.lense.obtainedStatus1 = 1;
+			lense.SetActive(true);
 		}
-		
-	}
 
-	//when mem. lense has been unlocked (game completed)
-	public void updateUStatus()
-	{
-	
-		MemoryLense.lense.unlockedStatus1 = 1;
 	}
 }

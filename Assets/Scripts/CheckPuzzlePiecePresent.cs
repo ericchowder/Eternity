@@ -17,7 +17,7 @@ public class CheckPuzzlePiecePresent : MonoBehaviour {
 	//}
 
 	//can be called when item has been obtained
-	public void UpdateStatus()
+	public void UpdateKeyStatus()
 	{
 		PuzzlePiece.puzzlePieces.key = 1;
 	}
