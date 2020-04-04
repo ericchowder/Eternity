@@ -5,14 +5,14 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour {
 
 	///object that camera follows
-	public Transform player;
+	private Transform player;
 
 	public float smoothSpeed = 0.125f;
 	public Vector3 offset;
 
 	void Start()
 	{
-
+		player = GameObject.Find("Eta").transform;
 		offset = transform.position - player.transform.position;
 
 	}

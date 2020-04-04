@@ -9,14 +9,18 @@ public class BoundariesLab : MonoBehaviour {
 
 	void Update()
 	{
-		if (transform.position.x > 0f || transform.position.x < -7f)
+		if (gameObject.transform.position.x > 0.2f || gameObject.transform.position.x < -7.5f)
 		{
 			cameraFollow.GetComponent<CameraFollow>().enabled = false;
 		}
-		cameraFollow.GetComponent<CameraFollow>().enabled = true;
+
+		else
+		{
+			cameraFollow.GetComponent<CameraFollow>().enabled = true;
+		}
 
 		transform.position = new Vector3(Mathf.Clamp(transform.position.x, 
-			-16.10f, 8.9f),
+			-14.85f, 7.15f),
 			(Mathf.Clamp(transform.position.y, 
 			-5.2f, 5.2f)));
 	}
