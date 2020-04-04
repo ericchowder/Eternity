@@ -93,7 +93,7 @@ public class minigame_movement : MonoBehaviour {
 			Time.timeScale = 0f;
 			//Debug.Log ("touched");
 		} else {
-			etaObject.transform.position = new Vector2 (-0.2f, -1.2f);
+			etaObject.transform.position = new Vector2 (5.75f, 3f);
 			prevChar = null;
 			myDelay = true;
 		}
