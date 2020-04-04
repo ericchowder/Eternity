@@ -20,7 +20,7 @@ public class UserInput : MonoBehaviour
 	{
 		//Debug.Log(userInput);
 		//check if user's answer is correct
-		if (userInput.Equals("5201"))
+		if (userInput.Equals("5201") && Input.GetKey(KeyCode.KeypadEnter) == true)
 		{
 			GameObject.Find("LoginScreen").SetActive(false);
 			GameObject.Find("InputField").SetActive(false);
@@ -34,7 +34,7 @@ public class UserInput : MonoBehaviour
 
 		}
 
-		else
+		else if (!userInput.Equals("5201") && !userInput.Equals("") && Input.GetKey(KeyCode.KeypadEnter) == true)
 		{
 			StartCoroutine(ShowAndHide(text));
 		}

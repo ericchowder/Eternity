@@ -3,8 +3,8 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
 - path: Assets/Scenes/Elevator2.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
 - path: Assets/Scenes/ElevatorPast.unity
   isLoaded: 0
   isActive: 0
@@ -17,7 +17,10 @@ sceneSetups:
 - path: Assets/Scenes/EtaRoom2.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/Scenes/minigame.unity
+- path: Assets/Scenes/Lab.unity
+  isLoaded: 1
+  isActive: 1
+- path: Assets/Scenes/LabPast.unity
   isLoaded: 0
   isActive: 0
 - path: Assets/Scenes/Title Screen.unity

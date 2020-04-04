@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\pauseMenu.cs" />
      <Compile Include="Assets\Scripts\BoundariesElevator.cs" />
+     <Compile Include="Assets\Scripts\BoundariesLab.cs" />
      <Compile Include="Assets\Scripts\BoundariesRoom.cs" />
      <Compile Include="Assets\Scripts\CheckMemLense2.cs" />
      <Compile Include="Assets\Scripts\CheckMemLense3.cs" />
@@ -89,6 +90,7 @@
      <Compile Include="Assets\Scripts\Eta&apos;s Room Objects\UserConfirmation.cs" />
      <Compile Include="Assets\Scripts\Eta&apos;s Room Objects\UserInput.cs" />
      <Compile Include="Assets\Scripts\Exit.cs" />
+     <Compile Include="Assets\Scripts\LabScripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\MemoryLense.cs" />
      <Compile Include="Assets\Scripts\minigameScripts\hit_detection.cs" />
      <Compile Include="Assets\Scripts\minigameScripts\instructions_screen.cs" />
@@ -106,9 +108,11 @@
      <Compile Include="Assets\Scripts\Navigation\LoadSettings.cs" />
      <Compile Include="Assets\Scripts\Navigation\MainMenu.cs" />
      <Compile Include="Assets\Scripts\NextLocationElevator.cs" />
+     <Compile Include="Assets\Scripts\NextLocationLab.cs" />
      <Compile Include="Assets\Scripts\NextLocationRoom.cs" />
      <Compile Include="Assets\Scripts\PuzzlePiece.cs" />
      <Compile Include="Assets\Scripts\ScenePrologue.cs" />
+     <Compile Include="Assets\Scripts\ScenePrologue1.cs" />
      <Compile Include="Assets\Scripts\Teleportation.cs" />
      <Compile Include="Assets\Scripts\Timeline.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />

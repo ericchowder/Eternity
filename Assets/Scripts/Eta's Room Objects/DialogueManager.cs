@@ -16,6 +16,7 @@ public class DialogueManager : MonoBehaviour
 	public GameObject headshot;
 
 	public GameObject exitButton;
+	public GameObject background;
 
 	private Queue<string> sentences;
 
@@ -42,6 +43,12 @@ public class DialogueManager : MonoBehaviour
 		clickedObj = EventSystem.current.currentSelectedGameObject;
 
 		sentences.Clear();
+
+		if(clickedObj.tag == "Puzzle")
+		{
+			exitButton.SetActive(true);
+			background.SetActive(true);
+		}
 
 		//iterates through queue that is holding the dialogue sentences(?)
 		foreach (string sentence in dialogue.sentences)
@@ -92,7 +99,6 @@ public class DialogueManager : MonoBehaviour
 			dialogueObject.SetActive(false);
 			headshot.SetActive(false);
 
-			exitButton.SetActive(true);
 		}
 
 		else
