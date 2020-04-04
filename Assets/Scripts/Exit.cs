@@ -14,13 +14,14 @@ public class Exit : MonoBehaviour {
 	// Update is called once per frame
 	//players can move to another location only 
 	//if the below requirements are fulfilled
-	void Update () {
+	void Update() {
 		if (MemoryLense.lense.unlockedStatus1 == 1 && current.name == "EtaRoom2")
 		{
 			exit.SetActive(true);
 
 		}
-		else if (MemoryLense.lense.obtainedStatus2 == 1 && current.name == "Elevator2")
+		else if (MemoryLense.lense.obtainedStatus2 == 1 && (current.name == "Elevator2" || 
+			current.name == "Elevator"))
 		{
 			exit.SetActive(true);
 

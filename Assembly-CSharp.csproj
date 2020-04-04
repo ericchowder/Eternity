@@ -98,7 +98,8 @@
      <Compile Include="Assets\Scripts\Navigation\LoadMainMenu.cs" />
      <Compile Include="Assets\Scripts\Navigation\LoadSettings.cs" />
      <Compile Include="Assets\Scripts\Navigation\MainMenu.cs" />
-     <Compile Include="Assets\Scripts\NextLocation.cs" />
+     <Compile Include="Assets\Scripts\NextLocationElevator.cs" />
+     <Compile Include="Assets\Scripts\NextLocationRoom.cs" />
      <Compile Include="Assets\Scripts\PuzzlePiece.cs" />
      <Compile Include="Assets\Scripts\ScenePrologue.cs" />
      <Compile Include="Assets\Scripts\Teleportation.cs" />
