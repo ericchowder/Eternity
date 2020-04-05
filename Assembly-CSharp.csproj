@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Auto Letterbox\ForceCameraRatio.cs" />
      <Compile Include="Assets\pauseMenu.cs" />
      <Compile Include="Assets\Scripts\BoundariesElevator.cs" />
      <Compile Include="Assets\Scripts\BoundariesLab.cs" />
@@ -90,6 +91,7 @@
      <Compile Include="Assets\Scripts\Eta&apos;s Room Objects\UserConfirmation.cs" />
      <Compile Include="Assets\Scripts\Eta&apos;s Room Objects\UserInput.cs" />
      <Compile Include="Assets\Scripts\Exit.cs" />
+     <Compile Include="Assets\Scripts\fixResolution.cs" />
      <Compile Include="Assets\Scripts\LabScripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\MemoryLense.cs" />
      <Compile Include="Assets\Scripts\minigameScripts\hit_detection.cs" />
