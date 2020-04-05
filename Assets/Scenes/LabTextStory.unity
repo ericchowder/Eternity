@@ -517,7 +517,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: 224862411
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!1 &1099792151
@@ -728,8 +728,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -322328239
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bd3a36ed7118ff74d8029d786952218a, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -770,7 +770,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1237581864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1287,7 +1287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1101bab58de8454a9a909d25308b07c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oldScene: ElevatorTextStory
+  oldScene: LabTextStory
   newScene: EtaRoom2
 --- !u!114 &1934000050
 MonoBehaviour:
@@ -1423,49 +1423,64 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - Curiosity
-    - "My consciousness gradually awakened in the darkness. I tried to move my body,
-      but I couldn't. My whole body was in a familiar experiment cabin. I was born
-      here, this is my home. As my hearing slowly recovered, I heard a familiar yet
-      unfamiliar voice.\r\n"
-    - "It was the voice of a young male, but it seemed to be deliberately lowered
-      with a strange metal-like hoarseness. Strangely, I didn't know this person...
-      but his voice was as if it was deeply engraved into my soul. This analogy seems
-      inappropriate as I don\u2019t even know if I have a soul. Maybe this is just
-      a malfunction of my body.\r"
-    - "When it was time for the scientists to check my physical condition, I noticed
-      the young male's ongoing conversation.\n\r\n\"Dr. Hos, are you really thinking
-      about not coming back? The laboratory needs you, Eta's ability is more difficult
-      to control than we expected ... The energy generated may negatively affect her
-      performance. As her creator, you must ... \"\r\n\n\"... There is nothing that
-      needs to be said.\" He interrupted the worker. \"I have my own things to do.\"\r\n\n\"But
-      Eta said that she also wanted to see her creator.\"\r"
-    - "That was when I realized that he was my creator\u2014\u2014Dr. Hos. "
-    - 'I have always been extremely curious about my creator. But why did he create
-      me if he has never interacted with me?
+    - Sense of Mission
+    - '"Hey congratulations, Eta." Even the scientists saw that I was very happy.
 
 
-      Maybe for Hos, I am not an important person. But the only thing I hope is that
-      in his eyes, I still exist as a "person" and not just as a beautiful artwork.'
-    - "I felt a slight tremor when the door opened, and the light dipped into the
-      darkness in front of me. In the dazzling light, I opened my eyes.\n\nMy eyes
-      met a beautiful emerald-like eye and an icy mask made of unknown metal. There
-      was no doubt that Hos was a very handsome man. \n"
-    - "He was staring at me, but also seemed to be looking for something inside of
-      me. This was probably not an illusion. Hos was focusing on something far away.\n\nThere
-      is an inexplicable feeling in my heart, and an uncontrollable curiosity.\n\r\nWhat
-      is he looking at? If I understood this man, would I be able to understand the
-      meaning of my existence?\r"
-    - 'I couldn''t seem to find any normal questions to ask him, only strange ones.
+      I was summoned by the government today, and the mission of time and space jumping
+      was finally given to me. As a product created by humans, I have always lived
+      with humans. In the beginning, I firmly believed that I had the same flesh and
+      blood as them. But then, after going through many things, I did not dare to
+      be so sure.'
+    - "I was different from them and I wanted to understand the meaning of my existence.
+      Fulfilling this task given to me by the government is an extremely important
+      part of my existence as a cyborg. As long as this task is completed, I can save
+      many people who should not have died. I was born for this.\r\n\nIf I return
+      successfully, would I be recognized by more people?\r\n\nWould Hos recognize
+      me?\r\n"
+    - However, until the day I had to leave, I did not see Hos.
+    - "The building where the time machine is stored is at a high-level secret location
+      and can only be entered by me.\r\n\nWith an upset and excited mood, I slowly
+      approached the room where the behemoth was stored. But when I opened the door,
+      my eyes widened; there was someone in the room. No matter who he was, he shouldn't
+      be here. What's more, this man ... familiar brown hair, half of his face covered
+      with a mask. He looked at me completely different than usual, with pain, with
+      desperation, with a strange relief.\r\n"
+    - "Why is Hos here?! He shouldn't be here!\r\n\nHe didn't seem to want to say
+      goodbye to me at all. Suddenly a very horrible guess came into my mind.\r\n\nHos...
+      is it you? Did you reveal the laboratory to the anti-cyborg association? When
+      we first met, you said you had things to do.. Were you busy because you\u2019re
+      a spy sent by the anti-cyborg association to a government-funded laboratory?\r\n"
+    - This thought only lasted for a moment when Hos calmly blocked my way to the
+      time machine.
+    - "\"...You want to stop me.\" My dry voice echoed in this room that contained
+      only the two of us. This came out more like a statement than a question. I couldn't
+      understand what he was thinking.\r\n\n\"Yes,\" Hos admitted quite simply. He
+      lowered his head and looked at me. He finally looked like a young man in his
+      twenties, with burning hope in his eyes. But this fire of hope, as if burning
+      his life, looked really ominous.\r\n.with certainty. \r\n"
+    - '"You know you can''t stop me." I said. "Do you believe that I don''t have what
+      it takes to compplete this mission?"
 
 
-      For example, "Hos, can you tell me why the sky is blue? What makes it blue?"'
-    - "Hos looked speechless at first, then he said to me.\r\n  \"......I think you
-      should spend a little more time exploring the repository I installed for you.\"\r"
-    - "The information library he installed for me was big and according to my processing
-      performance, I learned to search for my own answers in my mind.\r \n\nHowever,
-      I still couldn't understand human emotions. I couldn't understand my own emotions,
-      and I still couldn't understand Hos.\r"
+      He created me, why did he deprive me of the meaning of existence? If the mission
+      fails, the fate of those who I could have saved is only death!'
+    - 'Suddenly, I heard the sound of explosions and human voices outside. The anti-cyborg
+      association was here. '
+    - "I looked at Hos in front of me with very strange eyes, as if I was looking
+      at him for the first time. His speechless look, his eyes that looked at others
+      through me, all mixed together, making my heart feel pained and confused.\r\n\nHowever,
+      even this heart in my chest was given by the man in front of me. This man was
+      the one who created me, and now, he\u2019s the one who wants to destroy me ..."
+    - "\"... It\u2019s not me.\" Hos seemed equally surprised. His bewildered eyes
+      met mine, and a very painful realization flashed in his eyes. I finally believed
+      that he did not want me to die. He is still the one I know.\n\nWhen the people
+      from the anti-cyborg association outside were about to break through the door,
+      Hos' arms fell down weakly."
+    - "\"Just go.\" The burning hope in his eyes was finally extinguished, and instead,
+      it became dull ash.\r\n\nI had too little time to think about it and just started
+      the time machine.\r\n\nBefore I closed my eyes, I saw Hos walking towards the
+      anti-artificial human organization, losing his soul.\r\n"
 --- !u!4 &2068682014
 Transform:
   m_ObjectHideFlags: 0

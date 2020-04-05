@@ -55,6 +55,7 @@ public class CheckMemLense3 : MonoBehaviour
 
 			SceneManager.LoadScene(level);
 			SceneManager.UnloadSceneAsync(current);
+			GameObject.Find("Eta").GetComponent<BoxCollider2D>().enabled = false;
 		}
 	}
 	IEnumerator ShowAndHide(GameObject text, GameObject textbox)

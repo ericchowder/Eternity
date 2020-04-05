@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a70a47bcb7822654493ae388265ddec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oldScene: Lab
+  oldScene: Lab2
   newScene: LabPast
 --- !u!114 &63663841
 MonoBehaviour:

@@ -52,6 +52,7 @@ public class CheckMemoryLense : MonoBehaviour {
 			lense.SetActive(true);
 			SceneManager.LoadScene(level);
 			SceneManager.UnloadSceneAsync(current.name);
+			GameObject.Find("Eta").GetComponent<BoxCollider2D>().enabled = false;
 		}
 
 			

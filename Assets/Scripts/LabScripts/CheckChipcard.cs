@@ -8,14 +8,26 @@ public class CheckChipcard : MonoBehaviour {
 
 	public GameObject login;
 	public GameObject input;
+	public GameObject background;
+
+
+
+	void Start()
+	{
+		if (PuzzlePiece.puzzlePieces.chipcard == 1)
+		{
+			gameObject.GetComponent<DialogueTrigger>().dialogue = dialogue;
+		}
+	}
 
 	public void Check()
 	{
 		if (PuzzlePiece.puzzlePieces.chipcard == 1)
 		{
-			EventSystem.current.currentSelectedGameObject.GetComponent<DialogueTrigger>().dialogue = dialogue;
+			gameObject.GetComponent<DialogueTrigger>().dialogue = dialogue;
 			login.SetActive(true);
 			input.SetActive(true);
+			background.SetActive(true);
 		}
 	}
 }

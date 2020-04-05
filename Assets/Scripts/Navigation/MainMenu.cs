@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour {
 	{
 		
 		//SceneManager.LoadScene(SceneManager.GetactiveScene().buildIndex + 1);
-		SceneManager.LoadScene("Prologue");
+		SceneManager.LoadScene("Eta's Room");
 		// or Scene name: SceneManager.LoadScene("Chapter01");
 		// or Scene index: SceneManager.LoadScene(1);
 	}

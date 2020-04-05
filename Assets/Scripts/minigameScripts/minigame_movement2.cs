@@ -107,7 +107,9 @@ public class minigame_movement2 : MonoBehaviour {
 	public void QuitGame() {
 		Debug.Log ("Load Exit Scene here");
 		Time.timeScale = 1f;
-		//SceneManager.LoadScene ("Scene Here");
+		SceneManager.LoadScene ("ElevatorStory");
+		SceneManager.UnloadSceneAsync("minigame2");
+		GameObject.Find("Eta").GetComponent<BoxCollider2D>().enabled = true;
 		//Application.Quit();
 	}
 
