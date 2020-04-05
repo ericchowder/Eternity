@@ -8,6 +8,7 @@ TagManager:
   - Puzzle Piece
   - Key
   - Tank
+  - Camera Follow
   layers:
   - Default
   - TransparentFX

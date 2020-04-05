@@ -10,4 +10,13 @@ public class UserConfirmation : MonoBehaviour {
 	public GameObject questionText;
 	public GameObject textbox;
 
+	public void Appear()
+	{
+		yesButton.SetActive(true);
+		noButton.SetActive(true);
+
+		questionText.SetActive(true);
+		textbox.SetActive(true);
+	}
+
 }

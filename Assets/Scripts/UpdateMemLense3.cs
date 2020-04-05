@@ -7,7 +7,7 @@ public class UpdateMemLense3 : MonoBehaviour {
 	//when players have obtained a mem. lense
 	public void updateOStatus()
 	{
-		if (PuzzlePiece.puzzlePieces.piece3 == 1)
+		if (PuzzlePiece.puzzlePieces.chipcard == 1)
 		{
 			MemoryLense.lense.obtainedStatus3 = 1;
 		}

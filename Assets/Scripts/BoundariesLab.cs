@@ -5,19 +5,14 @@ using UnityEngine;
 public class BoundariesLab : MonoBehaviour {
 
 	public GameObject background;
-	public GameObject cameraFollow;
+	private Camera cameraFollow;
 
 	void Update()
 	{
-		if (gameObject.transform.position.x > 0.2f || gameObject.transform.position.x < -7.5f)
-		{
-			cameraFollow.GetComponent<CameraFollow>().enabled = false;
-		}
+		cameraFollow = GameObject.Find("Main Camera").GetComponent<Camera>();
+		cameraFollow.transform.position = new Vector3(gameObject.transform.position.x, 0,
+			gameObject.transform.position.z);
 
-		else
-		{
-			cameraFollow.GetComponent<CameraFollow>().enabled = true;
-		}
 
 		transform.position = new Vector3(Mathf.Clamp(transform.position.x, 
 			-14.85f, 7.15f),

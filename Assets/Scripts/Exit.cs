@@ -39,5 +39,10 @@ public class Exit : MonoBehaviour {
 			exit.SetActive(true);
 
 		}
+
+		else if(MemoryLense.lense.obtainedStatus3 == 1 && current.name == "Lab2")
+		{
+			exit.SetActive(true);
+		}
 	}
 }

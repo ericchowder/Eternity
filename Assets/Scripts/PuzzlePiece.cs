@@ -11,7 +11,7 @@ public class PuzzlePiece : MonoBehaviour {
 	//keep track of whether item has been obtained or not
 	public int key;
 	public int wire;
-	public int piece3;
+	public int chipcard;
 	public int piece4;
 
 
