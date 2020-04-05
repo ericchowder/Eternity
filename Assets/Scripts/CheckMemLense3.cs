@@ -53,8 +53,8 @@ public class CheckMemLense3 : MonoBehaviour
 			lense.SetActive(true);
 
 
-
-			//open minigame
+			SceneManager.LoadScene(level);
+			SceneManager.UnloadSceneAsync(current);
 		}
 	}
 	IEnumerator ShowAndHide(GameObject text, GameObject textbox)

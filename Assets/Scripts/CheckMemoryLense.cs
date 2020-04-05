@@ -40,23 +40,22 @@ public class CheckMemoryLense : MonoBehaviour {
 			textbox.SetActive(true);
 
 			closeNotifBtn.SetActive(true);
-			
+
 		}
 
 		else
 		{
 			notifText.text = text2;
-			
-			StartCoroutine(ShowAndHide(textObj, textbox));
-			
-			lense.SetActive(true);
-			//SceneManager.LoadScene ("minigame");
-			//SceneManager.UnloadSceneAsync(current.name)
 
-			//assume minigame is completed and players won
-			MemoryLense.lense.unlockedStatus1 = 1;
-			MemoryLense.lense.totalUnlocked = 1;
+			StartCoroutine(ShowAndHide(textObj, textbox));
+
+			lense.SetActive(true);
+			SceneManager.LoadScene(level);
+			SceneManager.UnloadSceneAsync(current.name);
 		}
+
+			
+
 	}
 	IEnumerator ShowAndHide(GameObject text, GameObject textbox)
 	{

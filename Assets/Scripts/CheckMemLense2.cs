@@ -52,13 +52,8 @@ public class CheckMemLense2 : MonoBehaviour
 			
 			lense.SetActive(true);
 
-			
-
-			//open minigame
-			
-			//assume minigame is completed and players won
-			MemoryLense.lense.unlockedStatus2 = 1;
-			MemoryLense.lense.totalUnlocked = 2;
+			SceneManager.LoadScene(level);
+			SceneManager.UnloadSceneAsync(current);
 		}
 	}
 	IEnumerator ShowAndHide(GameObject text, GameObject textbox)
@@ -68,10 +63,6 @@ public class CheckMemLense2 : MonoBehaviour
 		yield return new WaitForSeconds(0.5f);
 		text.SetActive(false);
 		textbox.SetActive(false);
-
-
-		//SceneManager.LoadScene(level);
-		//SceneManager.UnloadSceneAsync(current);
 
 
 	}

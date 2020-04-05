@@ -22,7 +22,12 @@ public class Exit : MonoBehaviour {
 			{
 				exit.SetActive(true);
 			}
-			
+			//exit from her room to the lab appears
+			else if (MemoryLense.lense.unlockedStatus2 == 1 && (current.name == "EtaRoom2"))
+			{
+				exit.SetActive(true);
+
+			}
 		}
 
 		//exit from the elevator to her room appears
@@ -33,12 +38,7 @@ public class Exit : MonoBehaviour {
 
 		}
 
-		//exit from her room to the lab appears
-		else if (MemoryLense.lense.obtainedStatus2 == 1 && (current.name == "EtaRoom2"))
-		{
-			exit.SetActive(true);
-
-		}
+		
 
 		else if(MemoryLense.lense.obtainedStatus3 == 1 && current.name == "Lab2")
 		{

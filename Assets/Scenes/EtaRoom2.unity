@@ -1304,7 +1304,7 @@ MonoBehaviour:
   textbox: {fileID: 1567503617}
   closeNotifBtn: {fileID: 1560183607}
   lense: {fileID: 320989800}
-  level: MinigameLevel1
+  level: minigame
 --- !u!1 &459082789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1641,7 +1641,7 @@ MonoBehaviour:
   textbox: {fileID: 1567503617}
   closeNotifBtn: {fileID: 1560183607}
   lense: {fileID: 1974257962}
-  level: Level2
+  level: minigame2
 --- !u!1 &573567606
 GameObject:
   m_ObjectHideFlags: 0
@@ -3628,7 +3628,7 @@ MonoBehaviour:
   textbox: {fileID: 1567503617}
   closeNotifBtn: {fileID: 1560183607}
   lense: {fileID: 1426206374}
-  level: Level3
+  level: minigame3
 --- !u!1 &1099507804
 GameObject:
   m_ObjectHideFlags: 0

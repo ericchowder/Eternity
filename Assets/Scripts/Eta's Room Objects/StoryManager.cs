@@ -73,7 +73,7 @@ public class StoryManager : MonoBehaviour {
 		this.sentence = sentences[currentSentence];
 
 		storyText.text = this.sentence;
-		
+
 		//when players are at the start of the story, cant click to go back
 		if (currentSentence == 0)
 		{

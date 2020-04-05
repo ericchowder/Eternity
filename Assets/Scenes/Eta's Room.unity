@@ -2092,16 +2092,16 @@ MonoBehaviour:
     name: 
     sentences:
     - Sometimes, when I look at Dr. Hos, I feel like he is staring at me. However,
-      I feel that he is looking at something inside of me... His eyes are directing
+      it seems like he is looking at something inside... His eyes are focusing on
       somewhere further away...
     - The record for time jumping is improving, my body's strength can handle a more
       powerful and farther jump. I cannot wait for the next test! Although I won't
       say it is because this is the only chance to meet Dr. Hos...
-    - I nearly got lost in time in today's test. It was a strange experience... I
-      cannot even describe it... My body is broken when I jumped back to the current
+    - I nearly got lost in time during today's test. It was a strange experience...
+      I cannot even describe it... My body broke when I jumped back to the current
       time, and the time jumping program is also down. They built a tank in my room
-      so I can restore my body function. Time to go to the tank now...
-    - '...I haven''t seen Dr. Hos in a while'
+      so I can restore my body function. Time to go in the tank now...
+    - '...I haven''t seen Dr. Hos in a while.'
 --- !u!1 &353436472
 GameObject:
   m_ObjectHideFlags: 0

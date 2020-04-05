@@ -5,43 +5,43 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Title Screen.unity
     guid: 8fe72b25f8647fd459e2cc98847a777f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Chapter01.unity
     guid: 9c0a1d7ad2c3ea741a1f9a1983be7e75
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/CreditScreen.unity
     guid: dc252b85d15218a4395c8877da8ba4ba
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SettingsScreen.unity
     guid: f3062088073c4734ea238b74906f9850
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Eta's Room.unity
     guid: ba0ed540bb719fa43816b2e4b21b7176
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/EtaOldRoom.unity
     guid: d4f3b1eb975eadc4c89c8e01962d5a27
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/EtaRoom2.unity
     guid: 9b615ac0049556e49973b68fdc45f29b
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Elevator.unity
     guid: 452e0fd79433b0e4e97fee92325a2ba2
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Prologue.unity
     guid: 26bd789f14eae574da2337b40b6ce4ed
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/ElevatorPast.unity
     guid: 2a1b1b9574df5c145ae022c91e03ef5e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/minigame.unity
     guid: d1f88ef5e2d95e141bbd9ba9062d99ee
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Elevator2.unity
     guid: 3de0a97df3465bc4bb20c3a059118b79
   - enabled: 1
@@ -53,7 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/minigame2.unity
     guid: d7237f36811485b4d84f18cb99edb97f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/minigame3.unity
     guid: 6023e7e5dc45d6842aa4d4575dc6ea47
   - enabled: 1
