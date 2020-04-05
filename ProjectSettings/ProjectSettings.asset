@@ -599,12 +599,14 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Collab: 1
+    UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudProjectId: 56c51034-9ad4-445e-9e8f-6ac7f8191be9
+  projectName: New Unity Project (1)
+  organizationId: chowder7
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
