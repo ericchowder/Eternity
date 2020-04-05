@@ -44,10 +44,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Elevator2.unity
     guid: 3de0a97df3465bc4bb20c3a059118b79
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Lab.unity
     guid: d656f276366e02a4393d685f568d304e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/LabPast.unity
     guid: 482c16173115f1b418d2899a108f0c70
   - enabled: 1
@@ -56,3 +56,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/minigame3.unity
     guid: 6023e7e5dc45d6842aa4d4575dc6ea47
+  - enabled: 1
+    path: Assets/Scenes/Lab2.unity
+    guid: c6875f43e762fe546a4a11d0a986c264
