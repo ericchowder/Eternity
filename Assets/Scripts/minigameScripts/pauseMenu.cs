@@ -41,7 +41,7 @@ public class pauseMenu : MonoBehaviour {
 	}
 
 	public void QuitGame() {
-		Debug.Log ("Load Exit Scene here");
+		Debug.Log ("EtaRoom2");
 		Time.timeScale = 1f;
 		//SceneManager.LoadScene ("Scene Here");
 		//Application.Quit();

@@ -365,7 +365,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 121765519}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -47.799988, z: 0}
+  m_LocalPosition: {x: 0, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 27944254}
@@ -373,8 +373,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -47.8}
-  m_SizeDelta: {x: 1500, y: 507.8}
+  m_AnchoredPosition: {x: 0, y: -2}
+  m_SizeDelta: {x: 1500, y: 414.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &121765521
 MonoBehaviour:
@@ -1029,8 +1029,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1933793527}
-        m_MethodName: 
+      - m_Target: {fileID: 1933793533}
+        m_MethodName: openMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1574,7 +1574,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1933793532}
+      - m_Target: {fileID: 1933793533}
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -2315,7 +2315,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1933793532}
+      - m_Target: {fileID: 1933793533}
         m_MethodName: Restart
         m_Mode: 1
         m_Arguments:
@@ -2759,6 +2759,7 @@ GameObject:
   - component: {fileID: 1933793529}
   - component: {fileID: 1933793528}
   - component: {fileID: 1933793532}
+  - component: {fileID: 1933793533}
   m_Layer: 0
   m_Name: pauseCanvas
   m_TagString: Untagged
@@ -2854,6 +2855,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15ceb5c5fbd024684afe1a09d31787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1933793533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1933793527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e0ce1e96d9c90d40992c741c963a833, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuUI: {fileID: 2032240275}
 --- !u!1 &2032240275
 GameObject:
   m_ObjectHideFlags: 0
