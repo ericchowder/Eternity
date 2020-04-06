@@ -109,7 +109,7 @@ public class minigame_movement : MonoBehaviour {
 		Time.timeScale = 1f;
 		SceneManager.LoadScene ("RoomStory");
 		SceneManager.UnloadSceneAsync("minigame");
-//		GameObject.FindGameObjectWithTag("Eta").GetComponent<BoxCollider2D>().enabled = true;
+		GameObject.FindGameObjectWithTag("Eta").GetComponent<BoxCollider2D>().enabled = true;
 		Destroy(GameObject.Find("MinigameAudio"));
 		//Application.Quit();
 	}
