@@ -10,6 +10,7 @@ public class SkipGame : MonoBehaviour {
 
     public void Skip()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(sceneToSkipTo);
         SceneManager.UnloadSceneAsync(minigame);
 
