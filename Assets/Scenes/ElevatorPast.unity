@@ -1907,7 +1907,7 @@ MonoBehaviour:
     name: Eta
     sentences:
     - '"It''s fixed now!"'
-    - '"It''s another memory lense."'
+    - '"It''s another memory lens."'
 --- !u!114 &1260918552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2123,7 +2123,7 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - Memory lense 2
+    - Memory lens 2
   item: {fileID: 1281893157}
 --- !u!1 &1262973582
 GameObject:

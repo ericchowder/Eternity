@@ -3263,7 +3263,7 @@ MonoBehaviour:
     name: Eta
     sentences:
     - '"There seems to be something inside."'
-    - '"A memory lense?"'
+    - '"A memory lens?"'
     - '"I wonder what I could use this for."'
 --- !u!114 &936271842
 MonoBehaviour:
@@ -3279,7 +3279,7 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - Memory lense
+    - Memory lens
   item: {fileID: 518425394}
 --- !u!114 &936271843
 MonoBehaviour:

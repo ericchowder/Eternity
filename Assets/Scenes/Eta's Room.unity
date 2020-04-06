@@ -7516,7 +7516,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1705834985}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -39.880005, z: 0}
+  m_LocalPosition: {x: -1.5, y: -24.554016, z: 0}
   m_LocalScale: {x: 1.00008, y: 1.00008, z: 1.00008}
   m_Children: []
   m_Father: {fileID: 1724457373}
@@ -7524,7 +7524,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.5, y: -39.88}
+  m_AnchoredPosition: {x: -1.5, y: -24.554}
   m_SizeDelta: {x: 1534, y: 920.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1705834987
@@ -7562,7 +7562,8 @@ MonoBehaviour:
   m_Text: 'Welcme to Eternity!
 
 
-    Eternity is a mystery, puzzle-solving, escape room like RPG
+    Eternity is a mystery, puzzle-solving, escape room like RPG with a twist of some
+    top-down maze minigames.
 
 
     Instructions:

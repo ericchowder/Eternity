@@ -1249,7 +1249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   oldScene: LabTextStory
-  newScene: EtaRoom2
+  newScene: Ending
 --- !u!114 &1934000050
 MonoBehaviour:
   m_ObjectHideFlags: 0
