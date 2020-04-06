@@ -10,6 +10,8 @@ public class MainMenu : MonoBehaviour {
 		
 		//SceneManager.LoadScene(SceneManager.GetactiveScene().buildIndex + 1);
 		SceneManager.LoadScene("Eta's Room");
+
+		Destroy(GameObject.Find("MenuAudio"));
 		// or Scene name: SceneManager.LoadScene("Chapter01");
 		// or Scene index: SceneManager.LoadScene(1);
 	}

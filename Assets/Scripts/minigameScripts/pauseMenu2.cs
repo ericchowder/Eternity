@@ -43,6 +43,8 @@ public class pauseMenu2 : MonoBehaviour {
 	public void QuitGame() {
 		Debug.Log ("EtaRoom2");
 		Time.timeScale = 1f;
+		SceneManager.LoadScene("EtaRoom2");
+		SceneManager.UnloadSceneAsync("minigame2");
 		//SceneManager.LoadScene ("Scene Here");
 		//Application.Quit();
 	}

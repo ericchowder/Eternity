@@ -19,7 +19,8 @@ public class UserInputLab : MonoBehaviour
 	{
 		//Debug.Log(userInput);
 		//check if user's answer is correct
-		if (userInput.ToLower().Equals("nabonpobbaaiot") && Input.GetKey(KeyCode.KeypadEnter) == true)
+		if (userInput.ToLower().Equals("nabonpobbaaiot") && (Input.GetKey(KeyCode.KeypadEnter) == true 
+			|| Input.GetKey(KeyCode.Return)))
 		{
 			GameObject.Find("LoginScreen").SetActive(false);
 			GameObject.Find("InputField").SetActive(false);
@@ -33,7 +34,8 @@ public class UserInputLab : MonoBehaviour
 
 		}
 
-		else if (!userInput.ToLower().Equals("nabonpobbaaiot") && !userInput.Equals("") && Input.GetKey(KeyCode.KeypadEnter) == true)
+		else if (!userInput.ToLower().Equals("nabonpobbaaiot") && !userInput.Equals("") &&
+			(Input.GetKey(KeyCode.KeypadEnter) == true || Input.GetKey(KeyCode.Return)))
 		{
 			StartCoroutine(ShowAndHide(text));
 		}

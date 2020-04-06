@@ -110,6 +110,7 @@ public class minigame_movement2 : MonoBehaviour {
 		SceneManager.LoadScene ("ElevatorStory");
 		SceneManager.UnloadSceneAsync("minigame2");
 		GameObject.Find("Eta").GetComponent<BoxCollider2D>().enabled = true;
+		Destroy(GameObject.Find("MinigameAudio"));
 		//Application.Quit();
 	}
 

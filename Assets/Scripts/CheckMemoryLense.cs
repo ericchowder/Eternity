@@ -53,6 +53,7 @@ public class CheckMemoryLense : MonoBehaviour {
 			SceneManager.LoadScene(level);
 			SceneManager.UnloadSceneAsync(current.name);
 			GameObject.Find("Eta").GetComponent<BoxCollider2D>().enabled = false;
+			Destroy(GameObject.Find("GameAudio"));
 		}
 
 			
