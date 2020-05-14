@@ -49,20 +49,20 @@ public class minigame_movement : MonoBehaviour {
 		dPos2 = dPos;
 		dPos = moveSpeed * Time.deltaTime; 
 		
-		if (Input.GetKey ("w")) {
+		if (Input.GetKey ("w") || Input.GetKey (KeyCode.UpArrow)) {
 			//pos.y += dPos + dPos2 * 0.5f + dPos3 * 0.25f;
 			pos.y += dPos;
 			prevChar = "w";
 		}
-		if (Input.GetKey ("s")) {
+		if (Input.GetKey ("s") || Input.GetKey (KeyCode.DownArrow)) {
 			pos.y -= dPos;
 			prevChar = "s";
 		}
-		if (Input.GetKey ("d")) {
+		if (Input.GetKey ("d") || Input.GetKey (KeyCode.RightArrow)) {
 			pos.x += dPos;
 			prevChar = "d";
 		}
-		if (Input.GetKey ("a")) {
+		if (Input.GetKey ("a") || Input.GetKey (KeyCode.LeftArrow)) {
 			pos.x -= dPos;
 			prevChar = "a";
 		}
