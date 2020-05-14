@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 
 public class DialogueManager : MonoBehaviour
 {
-
+	public Text nameText;
 	public Text dialogueText;
 
 	public GameObject textboxObject;
@@ -16,6 +16,7 @@ public class DialogueManager : MonoBehaviour
 	public GameObject headshot;
 
 	public GameObject exitButton;
+	public GameObject background;
 
 	private Queue<string> sentences;
 
@@ -36,10 +37,18 @@ public class DialogueManager : MonoBehaviour
 		dialogueObject.SetActive(true);
 		textboxObject.SetActive(true);
 		headshot.SetActive(true);
-
+		
+		nameText.text = dialogue.name;
+		
 		clickedObj = EventSystem.current.currentSelectedGameObject;
 
 		sentences.Clear();
+
+		if(clickedObj.tag == "Puzzle")
+		{
+			exitButton.SetActive(true);
+			background.SetActive(true);
+		}
 
 		//iterates through queue that is holding the dialogue sentences(?)
 		foreach (string sentence in dialogue.sentences)
@@ -90,7 +99,6 @@ public class DialogueManager : MonoBehaviour
 			dialogueObject.SetActive(false);
 			headshot.SetActive(false);
 
-			exitButton.SetActive(true);
 		}
 
 		else

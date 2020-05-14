@@ -93,7 +93,7 @@ public class minigame_movement : MonoBehaviour {
 			Time.timeScale = 0f;
 			//Debug.Log ("touched");
 		} else {
-			etaObject.transform.position = new Vector2 (-0.2f, -1.2f);
+			etaObject.transform.position = new Vector2 (5.75f, 3f);
 			prevChar = null;
 			myDelay = true;
 		}
@@ -107,7 +107,10 @@ public class minigame_movement : MonoBehaviour {
 	public void QuitGame() {
 		Debug.Log ("Load Exit Scene here");
 		Time.timeScale = 1f;
-		//SceneManager.LoadScene ("Scene Here");
+		SceneManager.LoadScene ("RoomStory");
+		SceneManager.UnloadSceneAsync("minigame");
+		GameObject.FindGameObjectWithTag("Eta").GetComponent<BoxCollider2D>().enabled = true;
+		Destroy(GameObject.Find("MinigameAudio"));
 		//Application.Quit();
 	}
 

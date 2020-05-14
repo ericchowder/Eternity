@@ -11,19 +11,13 @@ public class Objective : MonoBehaviour {
 
 	public void TriggerObjective()
 	{
-		if (counter == 0)
-		{
-			FindObjectOfType<ObjectiveTrigger>().ShowHint(dialogue);
-			FindObjectOfType<ObjectiveTrigger>().ShowObjective(text);
-			counter = 1;
-		}
-
-		else
-		{
-			FindObjectOfType<ObjectiveTrigger>().ShowObjective(text);
-		}
-
-		return;
 		
+		FindObjectOfType<ObjectiveTrigger>().ShowObjective(text);
+	
+		
+	}
+	public void TriggerHint()
+	{
+		FindObjectOfType<ObjectiveTrigger>().ShowHint(dialogue);
 	}
 }

@@ -8,6 +8,8 @@ TagManager:
   - Puzzle Piece
   - Key
   - Tank
+  - Camera Follow
+  - Eta
   layers:
   - Default
   - TransparentFX
@@ -18,7 +20,7 @@ TagManager:
   - 
   - 
   - background
-  - 
+  - objective
   - 
   - 
   - 
@@ -62,4 +64,13 @@ TagManager:
     locked: 0
   - name: DialogueManager
     uniqueID: 1910487323
+    locked: 0
+  - name: objective
+    uniqueID: 4229284955
+    locked: 0
+  - name: Story
+    uniqueID: 224862411
+    locked: 0
+  - name: Inputs
+    uniqueID: 3226234181
     locked: 0

@@ -12,4 +12,12 @@ public class CheckPuzzlePiecePast : MonoBehaviour {
 			EventSystem.current.currentSelectedGameObject.GetComponent<DialogueTrigger>().dialogue = dialogue;
 		}
 	}
+
+	public void CheckWirePast()
+	{
+		if (PuzzlePiece.puzzlePieces.wire == 1)
+		{
+			EventSystem.current.currentSelectedGameObject.GetComponent<DialogueTrigger>().dialogue = dialogue;
+		}
+	}
 }

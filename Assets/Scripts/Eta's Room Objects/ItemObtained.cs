@@ -22,10 +22,16 @@ public class ItemObtained : MonoBehaviour {
 
 		}
 
-		else if (PuzzlePiece.puzzlePieces.wire == 1)
+	}
+
+	public void TriggerLense2Obtained()
+	{
+		if (PuzzlePiece.puzzlePieces.wire == 1)
 		{
 			FindObjectOfType<ItemObtainedTrigger>().StartDialogue(dialogue, item);
+
 		}
+
 	}
 
 

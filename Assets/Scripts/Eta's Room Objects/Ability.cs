@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Ability : MonoBehaviour {
 	public static Ability ability;
@@ -14,7 +15,6 @@ public class Ability : MonoBehaviour {
 	public string newScene;
 
 	private Scene current;
-
 
 	void Awake()
 	{
@@ -55,4 +55,6 @@ public class Ability : MonoBehaviour {
 
 		SceneManager.UnloadSceneAsync(current.name);
 	}
+
+
 }

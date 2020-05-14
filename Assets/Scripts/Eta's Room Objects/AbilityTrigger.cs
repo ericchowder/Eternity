@@ -8,4 +8,5 @@ public class AbilityTrigger : MonoBehaviour {
 	{
 		Ability.ability.recovered = 1;
 	}
+	
 }
